@@ -20,6 +20,20 @@ import androidx.multidex.MultiDexApplication
 import com.kgurgul.cpuinfo.appinitializers.AppInitializers
 import dagger.hilt.android.HiltAndroidApp
 import javax.inject.Inject
+import android.app.Application
+import io.cobrowse.CobrowseIO
+
+/**
+  *Cobrowse.io
+  */
+  public class MainApplication extends Application {
+
+    @Override
+  public void onCreate() {
+     super.onCreate()
+
+     CobrowseIO.instance().license("3ozxPbe1ZeJF4g")
+     CobrowseIO.instance().start(this)
 
 /**
  * Base Application class for required initializations
