@@ -136,6 +136,8 @@ dependencies {
     implementation Libs.timber
     implementation Libs.relinker
     implementation Libs.csv
+    
+    implementation 'io.cobrowse:cobrowse-sdk-android:2.+'
 
     testImplementation Libs.junit
     testImplementation Libs.AndroidX.Test.core
