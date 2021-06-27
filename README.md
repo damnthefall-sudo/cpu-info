@@ -1,3 +1,5 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/kamgurgul/cpu-info)
+
 <img src="info/icon_glow.png" width="100" height="100" />
 
 CPU Info [![Build Status](https://travis-ci.org/kamgurgul/cpu-info.svg?branch=master)](https://travis-ci.org/kamgurgul/cpu-info)<br/>
